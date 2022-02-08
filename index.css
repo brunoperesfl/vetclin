@@ -1,0 +1,429 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px green;
+
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 75, 0);
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+
+    
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    
+}
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    display: block;
+    padding: 17px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: bold;
+    background-color: rgb(0, 121, 0);
+}
+
+li:hover, nav .active a{
+    background-color: rgb(0, 173, 0);
+    text-shadow: 2px 2px 2px black;
+
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url("images/cachorro.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+
+
+}
+.column{
+    flex-direction: column;
+}
+
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.banner_headline h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px black;
+    margin: 0;
+    padding: 0;
+    max-width: 370px;
+}
+
+.banner_headline h2 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px black;
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+    margin-top: 30px;
+}
+
+.banner_opt{
+    height: 210px;
+    display: flex;
+
+}
+    
+.banner1, .banner2, .banner3{
+    flex: 1;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.banner1{
+    background-color: rgb(0, 77, 0);
+    
+}
+.banner2{
+    background-color: rgb(0, 63, 0);
+    
+}
+.banner3{
+    background-color: rgb(0, 26, 0);
+    
+}
+.btitle{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-shadow: 3px 2px 1px black;
+    text-align: center;
+}
+.bdesc{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bdesc li:hover{
+   margin-right: 145px;
+}
+
+.bdesc li{
+    padding: 2px;
+}
+ 
+.banner1 a{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.dia1, .dia2, .dia3{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.listsm a{
+    color: white;
+    text-decoration: none;
+}
+#geral{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+}
+#geral section {
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 30px;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.widget_title_text{
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width: 80px;
+    height: 3px;
+    background-color: green;
+    margin-top: 7px;
+}
+.widget_body{
+    color: white;
+}
+
+article .news_data{
+    display: flex;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .news_posted_at{
+    background-color: green;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 3px;
+    color: white;
+}
+article .news_comments{
+    background-color: rgb(0, 192, 0);
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+}
+article .newsimg1 {
+    margin-top: 30px;
+}
+
+article .newsimg1 img{
+    width: 100%;
+    height: auto;
+}
+article .newsimg1:hover img{
+    width: 105%;
+}
+
+article .news_title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+article .news_resume{
+    font-size: 16px;
+    color: rgb(175, 175, 175);
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.block img{
+    width: 100%;
+   margin: 8px;
+   border: 2px solid green;
+}
+
+.blockflex{
+    display: flex;
+    
+}
+.racao, .vet, .brinqgato, .adocao, .remedio, .brinquedo{
+    margin-right: 20px;
+}
+
+footer{
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+}
+
+.fm1, .fm2, .fm3{
+flex: 1;
+color: white;
+padding: 20px;
+height: 70px;
+}
+
+.fm1{
+    background-color: rgb(0, 77, 0);
+    
+}
+.fm2{
+    background-color: rgb(0, 63, 0);
+    
+}
+.fm3{
+    background-color: rgb(0, 26, 0);
+    
+}
+.fmtitle{
+    font-size: 21px;
+    text-align: center;
+}
+
+.fmtext{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.areaitem{
+    color: white;
+    flex: 1;
+
+}
+.flexcolumn{
+    flex-direction: column;
+}
+.footer_area{
+    display: flex;
+}
+.footer_copy{
+    border-top: 1px solid white;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 30px;
+    color: rgb(126, 126, 126);
+}
+
+.footer_copy a{
+    color: rgb(126, 126, 126);
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mmline{
+    height: 2px;
+    background-color: white
+}
+
+
+
+
+
+@media (max-width:600px){
+    .banner_headline h1{
+        font-size: 30px;
+    }
+    .banner_headline h2{
+        font-size: 20px;
+    }
+    .banner_headline{
+        padding: 20px;
+    }
+    .banner_opt{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section{
+        padding: 20px;
+    }
+    #geral aside{
+        padding: 20px;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        opacity: 0.96;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    }
+    .banner1{
+        margin-top: 120px;
+    }
+
+}
+
+.gmail, .insta, .fb, .wpp{
+    width: 40px;
+    margin-right: 40px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+
+.logos_img1{
+    display: flex;
+}
+
+.logos_img2{
+    display: flex;
+}

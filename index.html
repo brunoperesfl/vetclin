@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="text/javascript">
+    window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                document.querySelector(".menu nav ul").style.display = 'none'
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'flex'
+            }
+        }) 
+    }
+    </script>
+
+    <title>VetClin</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="logo"><a href="index.html"><img class="logo" src="images/Logo.png" alt=""></a></div>
+        
+        
+        <div class="menu">
+
+            <nav>
+                <div class="menuMobile">
+                    <div class="mmline"></div>
+                    <div class="mmline"></div>
+                    <div class="mmline"></div>
+
+
+                </div>
+                    <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">Avaliações</a></li>
+                    <li><a href="">Endereço</a></li>
+                    </ul>
+                
+        </nav>
+
+        </div>
+
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <em><h1>VetClin: o melhor para seu pet!</h1>
+                <h2>Cuidados, saúde, alimentação e adoções</h2></em>
+            </div>
+            
+            <div class="banner_opt">
+                <div class="banner1">
+                    <div class="btitle">Sobre a clínica</div>
+                    <div class="bdesc">Desde sua origem em 2015, a <em>VetClin</em> sempre ofereceu o melhor serviço com os preços mais acessíveis do estado de SP </div>
+                    <a href="">Leia Mais</a>
+
+                </div>
+
+
+                <div class="banner2">
+                    <div class="btitle"> horários de atendimento</div>
+                    <div class="bdesc">
+                    
+                        <div class="dia1">
+                            <div class="segsex">Segunda - Sexta</div>
+                            <div class="horario1">8:00 - 18:00</div>
+                        </div>
+
+
+                        <div class="dia2">
+                            <div class="sab">Sábado</div>
+                            <div class="horario2">9:00 - 15:00</div>
+                        </div>
+                        
+                        
+                        <div class="dia3">
+                            <div class="dom">Domingo</div>
+                            <div class="horario3">9:00 - 11:30</div>
+                        </div>
+
+                    
+                    </div>
+                </div>
+
+
+                <div class="banner3">
+                    <div class="btitle">saiba mais</div>
+                    <div class="bdesc"> <ul class="listsm">
+                        <a href=""><li>Adoções</li></a>
+                        <a href=""><li>Ração</li></a>
+                        <a href=""><li>Brinquedos</li></a>
+                    
+                    </ul></div>
+
+                </div>
+
+            </div>
+
+        </div>
+      
+    </section>
+
+
+    <section id="geral">
+
+        <div class="container">
+
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Últimas Notícias</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        
+                        
+                        <article>
+                            <a href=""> 
+                            <div class="news_data">
+                                <div class="news_posted_at"> 15 SET 21</div>
+                                <div class="news_comments"> 22</div>
+                            </div>
+                            
+                            <div class="newsimg1">
+                                <img src="images/canis.png" alt="">
+                            </div>
+
+                            <div class="news_title">
+                            Agora disponível na <em>VetClin</em>: adoção de cãezinhos!
+                             </div>    
+
+                            <div class="news_resume">Adote já o melhor amigo da vida! A <em>VetClin</em> oferece várias opções de cães, todos com vacinação em dia, castração opcional gratuita, e com carinho e amor transbordando só para você!
+                            </div>
+                        </a>
+                        </article>
+                    
+
+                        <article>
+                            <a href=""> 
+                            <div class="news_data">
+                                <div class="news_posted_at"> 12 SET 21</div>
+                                <div class="news_comments"> 12</div>
+                            </div>
+                            
+                            <div class="newsimg1">
+                                <img src="images/gato.png" alt="">
+                            </div>
+
+                            <div class="news_title">
+                            Saiba tudo o que você precisa para manter seu gatinho em forma!
+                             </div>    
+
+                            <div class="news_resume">
+                                Peixe? Carne? O que posso dar para o meu gato? Devo passear com ele? Comprar brinquedos 'fitness'? Clique aqui e fique informado sobre tudo para manter seu bichano com a melhor performance possível!
+                            </div>
+                        </a>
+                        </article>
+
+                        <article>
+                            <a href=""> 
+                            <div class="news_data">
+                                <div class="news_posted_at"> 09 SET 21</div>
+                                <div class="news_comments"> 15</div>
+                            </div>
+                            
+                            <div class="newsimg1">
+                                <img src="images/diaveterinario.png" alt="">
+                            </div>
+
+                            <div class="news_title">
+                            Dia do Veterinário
+                             </div>    
+
+                            <div class="news_resume">Nós da <em>VetClin</em> somos extremamente gratos por termos a honra de trabalhar ao lado de profissionais tão bem qualificados que já salvaram incontáveis vidas de Pets
+                            </div>
+                        </a>
+                        </article>
+
+                        <article>
+                            <a href=""> 
+                            <div class="news_data">
+                                <div class="news_posted_at"> 27 AGO 21</div>
+                                <div class="news_comments"> 9</div>
+                            </div>
+                            
+                            <div class="newsimg1">
+                                <img src="images/dog.png" alt="">
+                            </div>
+
+                            <div class="news_title">
+                                Os melhores brinquedos para o seu pet!
+                             </div>    
+
+                            <div class="news_resume">Além de oferecermos várias opções de brinquedos, todos garantem 100% a felicidade e empolgação do seu bichinho! 
+                            </div>
+                        </a>
+                        </article>
+
+
+                    </div>
+
+            </section>
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departamentos</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        
+                        <div class="blockflex">
+                         <a href="" title="Rações"> <div class="racao"><div class="block"> <img src="images/racao.jpg" alt=""></div></div></a>
+                          <a href="" title="Brinquedos para cães"> <div class="brinquedo"> <div class="block"> <img src="images/brinquedo.png" alt=""></div></div> </a>
+                        </div>
+                       
+                        <div class="blockflex">
+                           <a href="" title="Brinquedos para gatos"> <div class="brinqgato">  <div class="block"><img src="images/brinqgato.png" alt=""></div></div></a>
+                            <a href="" title="Remédios"><div class="remedio"> <div class="block"><img src="images/remedio.jpg" alt=""></div></div></a>
+                        </div>
+                       
+                        <div class="blockflex">
+                           <a href="" title="Nossa equipe"> <div class="vet"> <div class="block"><img src="images/vet.png" alt=""></div></div></a>
+                            <a href="" title="Adoção"><div class="adocao"> <div class="block"><img src="images/adoption.jpg" alt=""></div></div></a>
+                        </div>
+
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Agende sua consulta</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+
+                            <div class="logos_img1">
+
+                            <div class="gmail_logo">
+                               <a href="" title="vetclin@gmail.com"> <img class="gmail" src="images/gmail_logo.png" alt=""> 
+                               </a></div>
+
+                            <div class="insta_logo">
+                             <a href="" title="@vetclin">  <img class="insta" src="images/insta.jpg" alt="">
+                             </a>   </div>
+
+                            </div>
+
+                            <div class="logos_img2">
+
+                                <div class="wpp_logo">
+                                   <a href="" title="(00) 123456789"> <img class="wpp" src="images/wpp.png" alt=""> 
+                                   </a></div>
+    
+                                <div class="fb_logo">
+                                 <a href="" title="VetClin">  <img class="fb" src="images/fb.png" alt="">
+                                 </a>   </div>
+    
+                                </div>
+
+
+
+
+                        </div>
+                </div>
+            </aside>
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <footer>
+
+
+<div class="container flexcolumn">
+    <div class="footer_menu">
+        <div class="fm1">
+            <div class="fmtitle">
+            Planos de saúde para seu Pet
+            </div>
+
+            <div class="fmtext">
+                texto 1
+            </div>
+
+        </div>
+
+        <div class="fm2">
+            <div class="fmtitle">
+            Avaliações dos Clientes
+            </div>
+
+            <div class="fmtext">
+                texto 2
+            </div>
+
+        </div>
+
+        <div class="fm3">
+            <div class="fmtitle">
+            Acompanhe seu Pet
+            </div>
+
+            <div class="fmtext">
+                texto 3
+            </div>
+
+        </div>
+
+
+    </div>
+
+<div class="footer_area">
+
+    <div class="areaitem">
+        <div class="widget">
+            <div class="widget_title">
+                <div class="widget_title_text">algo aqui</div>
+                <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body">
+                TEXto aqui!
+            </div>
+        </div>
+    </div>
+
+    <div class="areaitem">
+        <div class="widget">
+            <div class="widget_title">
+                <div class="widget_title_text">algo aki tb</div>
+                <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body">
+                texto aqui!!
+            
+            </div>
+    </div>
+    </div>
+
+    <div class="areaitem">
+        <div class="widget">
+            <div class="widget_title">
+                <div class="widget_title_text">Departamentos</div>
+                <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body">
+                texto aqui!!!!
+            
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<div class="footer_copy">
+
+   <em><strong>Copyright</strong> - <a href="">
+    Todos os Direitos Reservados
+</a>
+</em>
+
+</div>
+
+</div>
+
+
+    </footer>
+
+
+</body>
+</html>
